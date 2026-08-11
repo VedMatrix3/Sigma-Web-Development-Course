@@ -1,0 +1,103 @@
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(70, 34, 34);
+    padding: 20px;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+header h1 {
+    background-color: rgb(70, 34, 34);
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 8px;}
+
+nav{
+
+    text-align: center;
+    background-color: rgb(152, 91, 91);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+nav li {
+    display: inline-block;
+    padding: 10px;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 0px;
+    margin: 0px;
+}
+
+#videosec{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: center;
+}
+.video-block {
+    display: flex;
+    width: 200px;
+    flex-direction: column;
+    padding: 10px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 3px;
+    text-align: center;
+
+}
+
+h2{
+    text-align: center;
+    background-color: rgb(118, 170, 34);
+    padding: 10px;
+    border-radius: 18px;
+}
+
+
+#audioid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* background-color: rgb(218, 123, 123); */
+}
+
+.audio-block {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    width: 46%;
+    margin: 5px;
+    flex-direction: column;
+    border: 2px solid black;
+    background-color: rgb(229, 178, 178);
+    border-radius: 10px;
+}
+.audio-block p {
+ text-align: center;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+audio {
+    width: 100%;
+}

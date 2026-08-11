@@ -1,0 +1,44 @@
+
+.container {
+    position: relative;
+    width: 80vw;
+    height: 90vh;
+    background: rgb(138, 234, 98);
+    overflow: hidden;
+    border: 2px solid black;
+}
+
+/* Parent moves horizontally */
+.xmove {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    animation: xbounce 5s linear infinite;
+}
+
+/* Ball moves vertically */
+.ball {
+    width: 120px;
+    height: 120px;
+    background: red;
+    border-radius: 50%;
+    animation: ybounce 1s ease-out infinite alternate;
+}
+
+@keyframes xbounce {
+    from {
+        left: 0;
+    }
+    to {
+        left: 1100px;
+    }
+}
+
+@keyframes ybounce {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(-500px);
+    }
+}

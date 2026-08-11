@@ -1,0 +1,9 @@
+video-1
+
+-Download vs code and setup
+
+-mouse wheel, screen cast like features
+
+-Client, Browser, Server (Website Working)
+
+- Build My First Website

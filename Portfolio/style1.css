@@ -1,0 +1,129 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+img{
+    height: 50px;
+    border-radius: 50%;
+}
+
+body{
+    background-color:#F9FAFB ;
+    color:#F8FAFC;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid red;
+    background-color: rgb(200, 15, 15);
+    font-weight: 800;
+    font-size: 20px;
+    gap: 25PX;
+}
+
+.nav .list {
+    display: flex;
+    gap: 15PX;
+}
+
+.seprator{
+    height: 10px;
+    width: 100%;
+    background: rgb(38, 36, 36);
+}
+
+
+/* -----------------------------------------------------------------------
+About Section
+----------------------------------------------------------------------- */
+.about{
+    /* width: 80vw; */
+    margin: auto;
+    text-align: center;
+}
+
+.heading{
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.about p{
+font-weight: 600;
+font-style: italic;
+ font-size: 20px;
+}
+
+.projects > h1 {
+    /* background-color: rgb(23, 26, 26); */
+    /* margin: 20px; */
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    margin: 20px;
+    width: 300px;
+    padding: 20px;
+    /* border: 2px solid green; */
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #FFFFFF;
+}
+
+/* -----------------------------------------------------------------------
+                    Education Section
+----------------------------------------------------------------------- */
+.education{
+    width: 70vw;
+    margin: auto;
+    /* text-align: center; */
+}
+
+/* -----------------------------------------------------------------------
+                    Skills Section
+----------------------------------------------------------------------- */
+.skills{
+    width: 70vw;
+    margin: auto;
+    /* text-align: center; */
+}
+
+/* -----------------------------------------------------------------------
+                    Contact Section
+----------------------------------------------------------------------- */
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact .conbox{
+    align-items: center;
+    display: flex;
+    width: 350px;
+    /* border: 2px solid red; */
+    border-radius: 8px;
+    background-color: indigo;
+    flex-direction: column;
+    ;
+}
+
+.conbox button{
+    background-color: #38BDF8;
+}
+
+footer{
+    color: white;
+    background-color: black;
+    font-weight: 900;
+    text-align: center;
+}

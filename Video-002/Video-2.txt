@@ -1,0 +1,14 @@
+Video-2
+
+1- create files index.html, script.js & style.css
+2- Add Extensions 
+	-vs code icons
+	-jellyfish theme
+	-GitHub theme
+	-material theme/icons
+	-prettier
+	-es7 react
+	-live preview
+3- link css & js files
+	 <link rel="stylesheet" href="style.css">
+	<script src="script.js"></script> 

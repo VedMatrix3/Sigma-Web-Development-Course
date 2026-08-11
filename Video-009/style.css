@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(1, 95, 95);
+}
+
+.main-heading {
+    color: rgb(137, 79, 9);
+    background-color: rgb(226, 226, 66);
+    text-align: center;
+}
+
+.sub-heading {
+    color: rgb(0, 100, 0);
+    background-color: aquamarine;
+    
+}
+
+#intro {
+    font-size: 1.2em;
+    background-color: lime;
+    color: blue;
+}
+
+p{
+    color: rgb(209, 226, 128);
+}

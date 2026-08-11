@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web-Site Layout</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+
+        header{
+            position: sticky;
+            top: 0;
+        }
+
+        nav{
+            height: 75px;
+            background-color: rgb(139, 90, 17);
+        }
+
+        main{
+            background-color: aqua;
+            display: flex;
+            text-align: center;
+            justify-content: center;
+        }
+        
+        
+        .box-1{
+            align-content: center;
+            height: 90vh;
+            background-color: green;
+            width: 45%;
+            margin: 15px;
+
+        }
+        
+        .box-2{
+            align-content: center;
+            height: 90vh;
+            background-color: orange;
+            width: 45%;
+            margin: 15px;
+
+        }
+
+        footer{
+            color: white;
+            text-align: center;
+            height: 65px;
+            align-content: center;
+            background-color: black;
+        }
+
+        .round{
+             height: 32px;
+            width: 32px;
+            background: orange;
+            position: fixed;
+            bottom: 12px;
+            right: 33px;
+            border-radius: 60px;
+            text-align: center;
+            align-content: center;
+            
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+
+        </nav>
+    </header>
+    <main>
+        <div class="box-1">1</div>
+        <div class="box-2">2</div>
+    </main>
+    <footer>
+        <p>Welcome to Sigma Web-Development Express</p>
+    </footer>
+    <div class="round">Ram</div>
+</body>
+</html>

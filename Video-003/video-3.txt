@@ -1,0 +1,9 @@
+video-3 
+Basic Structure of an HTML Website | Sigma Web Development Course - Tutorial #3
+
+1-Tags
+	-meta tags	
+	-link
+2-Show Live Preview on Phone using Live Preview extension
+ to do this simply open cmd-> type "ipconfig" -> copy ipv4 address -> open live 
+ preview settings -> find host address and replace with your copied ipv4 address

@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ body {
+            background-color: rgb(230, 155, 155);
+        }
+
+        @media screen and (orientation: portrait) {
+            body{
+                border: 2px solid purple;
+            }
+        }
+
+        @media only screen and (max-width: 455px){
+            body{
+
+                background-color: rgb(92, 173, 84);
+            }
+            
+            .boxes{
+                flex-direction: column;
+            }
+        }
+        
+        /* @media not|only mediatype and (expressions) {
+            CSS-Code;
+        } */
+
+        .boxes{
+            display: flex;
+        }
+
+        .box{
+            width: 344px;
+            height: 344px;
+            background-color: steelblue;
+            padding: 3px;
+            margin: 3px;
+        }

@@ -1,0 +1,43 @@
+.container{
+    height: 70vh;
+    width: 70vw;
+    background-color: rgb(193, 193, 220);
+    margin: auto;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.head, .display, .tip{
+
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+
+.display{
+    background-color: rgb(118, 244, 244);
+    height: 60px; 
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.head{
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.container button{
+    font-size: 30px;
+}
+
+.tip{
+display: flex;
+flex-direction: column;
+color:  red;
+background-color: black;
+margin: 2px;
+justify-content: center;
+text-align: center;
+font-weight: 800;
+}

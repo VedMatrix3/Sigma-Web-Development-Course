@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styling Lists using CSS</title>
+    <style>
+        .styled-list {
+            list-style-type: devanagari;
+            color: green;
+            font-size: 18px;
+        }
+
+        nav ul {
+            display: flex;
+            background-color: lightblue;
+        }
+
+        nav ul li {
+            list-style: none;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 5px;
+            border: 2px solid black;
+        }
+        nav ul li:hover {
+            background-color: darkblue;
+            color: white;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <h1>Styling Lists using CSS</h1>
+    <p>In this example, we will style an unordered list using CSS.</p>
+
+    <nav>
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ul>
+    </nav>
+
+    <p>We can also use classes to style lists:</p>
+
+
+
+    <ul class="styled-list">
+        <li>Styled Item 1</li>
+        <li>Styled Item 2</li>
+        <li>Styled Item 3</li>
+    </ul>
+
+
+</body>
+
+</html>

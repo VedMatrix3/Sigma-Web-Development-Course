@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h2>Contact Me</h2>
+    
+    <!-- STEP 1: Set up the form container with your email -->
+    <form action="mailto:binoja8454@kinws.com" method="POST" enctype="text/plain">
+        
+        <!-- STEP 2: Create inputs with clear 'name' attributes -->
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="Sender_Name" required><br><br>
+
+        <label for="subject">Subject:</label><br>
+        <input type="text" id="subject" name="Email_Subject"><br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="User_Message" rows="5" required></textarea><br><br>
+
+        <!-- STEP 3: Add the submit button -->
+        <button type="submit">Send Email</button>
+        
+    </form>
+
+</body>
+</html>

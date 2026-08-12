@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+
+:root{
+    --mainColor: white;
+    --subColor: gray;
+}
+.body{
+
+}
+
+.cards{
+    display: flex;
+    border: 2px solid black;
+    width: 700px;
+    height: 120px;
+    display: flex;
+    background-color: black;
+    color: var(--mainColor);
+    margin: 30px auto;
+
+}
+
+.left{  
+    padding: 10px;
+}
+
+.left img{
+    width: 180Px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.time{
+    position: relative;
+    /* color: black; */
+    font-weight: 700;
+    background-color: rgba(2, 2, 2, 0.77);
+    padding: 0px 2px;
+    top: -25px;
+    right: -135px;
+    border-radius: 5px;
+
+}
+
+
+.right{
+    padding: 10px;
+}
+.title{
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.vay{
+    color: var(--subColor);
+    display: flex;
+    gap: 40px;
+    padding: 5px px;
+}
+

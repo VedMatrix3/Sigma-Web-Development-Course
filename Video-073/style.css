@@ -57,7 +57,7 @@
 .vay{
     color: var(--subColor);
     display: flex;
-    gap: 40px;
+    gap: 20px;
     padding: 5px px;
 }
 

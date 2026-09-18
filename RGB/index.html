@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+        // ["red", "green", "blue", "yellow", "orange", "purple", "pink", "cyan", "magenta", "lime", "aqua", "teal", "navy", "violet", "indigo", "gold", "silver", "white", "black", "coral", "turquoise", "crimson", "lavender", "plum", "salmon", "tomato", "fuchsia", "maroon", "olive", "orange", "skyblue"]
+        var color = ["red", "orange", "yellow", "green", "blue", "indigo", "violet"];
+        console.log(color)
+
+        function rgb(k) {
+            // for (let i = 0; i < color.length; i++) {
+            document.querySelector("body").style.backgroundColor = `${color[k]}`;
+            // }
+        }
+
+
+        var k = 0
+        setInterval(() => {
+            if (k < color.length) {
+                rgb(k)
+                k++;
+            }
+            else {
+                k = 0;
+            }
+        }, 2000)
+
+
+    </script>
+</body>
+
+</html>
